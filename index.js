@@ -11,7 +11,7 @@ app.get('/quotes', (req, res) => {
 });
 
 app.get('/quote', (req, res) => {
-  quote = quotes[Math.floor(Math.random() * quotes.length)];
+  quote = [quotes[Math.floor(Math.random() * quotes.length)]];
   while (previousQuote == quote) {
     quote = quotes[Math.floor(Math.random() * quotes.length)];
   }
