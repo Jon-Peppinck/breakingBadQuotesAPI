@@ -6,7 +6,7 @@ const ports = process.env.PORT || 3000;
 let quote;
 let previousQuote;
 
-app.get('/quotes', (req, res) => {
+app.get('/', (req, res) => {
   res.send(quotes);
 });
 
