@@ -6,6 +6,11 @@ const ports = process.env.PORT || 3000;
 let quote;
 let previousQuote;
 
+app.all('*', function(req, res, next) {
+  res.set('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.get('/', (req, res) => {
   res.send(quotes);
 });
