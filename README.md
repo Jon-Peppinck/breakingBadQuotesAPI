@@ -1,4 +1,4 @@
-# breakingBadQuotesAPI
+# Node-breakingBadQuotesAPI
 The back end for the breaking bad quotes - node.js backend
 
 Connects to a node.js to make get requests only.
