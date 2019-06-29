@@ -1,17 +1,18 @@
 # Node-breakingBadQuotesAPI
-The back end for the breaking bad quotes - node.js backend
+This is the backend node/express for the Breaking Bad Quotes application created in Angular.
+When the user generates a new quote from the Angular application it makes a get request to the server to generate a random quote from the list.
 
-Connects to a node.js to make get requests only.
+-----------------
+Deployment
+-----------------
 
-// For all of the breaking bad quotes
+For all of the breaking bad quotes
 
 https://breaking-bad-quote-list.herokuapp.com/
 
 // for a random single breaking bad quote
 
 https://breaking-bad-quote-list.herokuapp.com/quote
-
-CRUD functionality to local storage only.
 
 Front end Deployed:
 
